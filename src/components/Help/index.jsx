@@ -32,31 +32,31 @@ function Help() {
         <Box value="S" state="C" />
         <Box value="W" />
         <Box value="E" />
-        <Box value="A" />
+        <Box value="E" />
         <Box value="T" />
       </div>
       <p className="text-left text-sm sm:text-base py-2 opacity-75">
         The letter <b>S</b> is in the word and in the correct spot.
       </p>
       <div className="flex gap-1">
-        <Box value="N" />
-        <Box value="U" />
-        <Box value="M" state="E" />
-        <Box value="B" />
-        <Box value="S" />
+        <Box value="R" />
+        <Box value="E" />
+        <Box value="A" state="E" />
+        <Box value="C" />
+        <Box value="T" />
       </div>
       <p className="text-left text-sm sm:text-base py-2 opacity-75">
-        The letter <b>M</b> is in the word and in the correct spot.
+        The letter <b>A</b> is in the word but not in the correct spot.
       </p>
       <div className="flex gap-1">
-        <Box value="F" />
-        <Box value="L" state="N" />
+        <Box value="B" />
+        <Box value="O" state="N" />
         <Box value="A" />
-        <Box value="T" />
-        <Box value="S" />
+        <Box value="R" />
+        <Box value="D" />
       </div>
       <p className="text-left text-sm sm:text-base py-2 opacity-75">
-        The letter <b>N</b> is in the word and in the correct spot.
+        The letter <b>O</b> is not in the word.
       </p>
     </>
   );
